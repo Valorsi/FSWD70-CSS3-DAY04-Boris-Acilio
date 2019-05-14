@@ -1,0 +1,81 @@
+#container {
+
+}
+#head {
+	width: 100%;
+	height: 120px;
+	border: solid;
+	border-color: black;
+	display: flex;
+	background-color: #232F3E;
+
+	
+}
+#logo {
+	border: solid;
+	border-color: black;
+	width: 20%;
+	padding: 10px 10px 10px 10px;
+	align-items: center;
+
+}
+#search {
+	border: solid;
+	border-color: black;
+	width: 40%;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+	flex-flow: column;
+	
+}
+#search div {
+	
+}
+#searchbar {
+	height: 50%;
+	border: solid; 
+	/*border-color: red;*/
+}
+#searchbar div {
+	display: inline-block;
+	
+
+}
+#navbar {
+	height: 50%;
+	border: solid; 
+	/*border-color: blue;*/
+	display: flex;
+	justify-content: center;
+
+}
+#navbar a {
+	text-decoration: none;
+	color: white;
+
+}
+	
+	
+
+
+
+
+#corner {
+	border: solid;
+	border-color: black;
+	width: 35%;
+	padding: 10px 10px 10px 10px;
+	flex-flow: column;
+}
+#title {
+	border: solid;
+	border-color: black;
+	color: white;
+
+}
+#basket {
+	border: solid;
+	border-color: black;
+	color: white;
+
+}
