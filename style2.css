@@ -3,19 +3,19 @@ body {
     font-size: 16px;
 }
 #container {
-    margin: 0 auto;
+    margin: auto;
     width: 80%;
 }
 .header {
     display: flex;
     justify-content: flex-start;
-    background-color: #3a0088;
+    background-color: #white;
     border-bottom: solid;
     border-color: grey;
 }
 
 .header>div {
-    background-color: #ffbd39;
+    background-color: lightgrey;
     width: 120px;
     margin: 10px;
     text-align: center;
@@ -27,10 +27,20 @@ body {
 
 }
 .panel {
-	border: solid;
 	width: 100%;
-	height: 100px;
+	height: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+    flex-direction: row;
 }
 
+.main {
+    margin: auto;
+    width: 70%;
+}
+
+.photo {
+    height: 270px;
+    width: 480px;
+    
+}
