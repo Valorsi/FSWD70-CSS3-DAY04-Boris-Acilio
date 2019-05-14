@@ -98,4 +98,24 @@ body {
     height: 100%;
     width: 100%; } }
 
+/* tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .flexy, .flexi, .footerpic, .navbar {
+    width: 100%;
+    height: auto; }
+
+  body {
+    background-color: deepskyblue; } }
+/* desktop */
+@media screen and (min-width: 1025px) {
+  .flexy, .flexi, .footerpic, .navbar {
+    width: 100%;
+    height: auto; }
+
+  body {
+    background-color: darksalmon; } }
+
+/*# sourceMappingURL=test.css.map */
+
+
 /*# sourceMappingURL=style.css.map */
